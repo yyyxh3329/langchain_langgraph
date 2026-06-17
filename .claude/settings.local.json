@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /d/PYcharm/PythonProject/LangChain_Learn/ status)"
+    ]
+  }
+}
