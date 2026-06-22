@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc83fab-da17-4cc1-bf4b-7122f2dee203" name="更改" comment="功能：项目初始化">
-      <change afterPath="$PROJECT_DIR$/app/process/import_/agent/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/process/import_/agent/main_graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/process/import_/agent/nodes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/process/import_/agent/nodes/node_bge_embedding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/process/import_/agent/nodes/node_document_split.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/process/import_/agent/nodes/node_entry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/process/import_/agent/nodes/node_import_milvus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/process/import_/agent/nodes/node_item_name_recognition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/process/import_/agent/nodes/node_md_img.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/process/import_/agent/nodes/node_pdf_to_md.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/process/import_/agent/state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/process/query/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/rag/import_/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/rag/import_/embedding_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/rag/import_/enrich_markdown_images.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/rag/import_/entry_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/rag/import_/index_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/rag/import_/item_name_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/rag/import_/pdf_parse_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/rag/import_/split_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/rag/query/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/01_test_import_app_invoke.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/process/import_/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="6fc83fab-da17-4cc1-bf4b-7122f2dee203" name="更改" comment="测试：增加graph代码案例" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,26 +41,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.01_test_import_app_invoke.executor": "Run",
-    "Python.logger.executor": "Run",
-    "Python.providers.executor": "Run",
-    "Python.state.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/PYcharm/PythonProject/ai_knowledge_base",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.01_test_import_app_invoke.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.providers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.state.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PYcharm/PythonProject/ai_knowledge_base&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PYcharm\PythonProject\ai_knowledge_base\app\infra\config" />
@@ -194,6 +167,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.01_test_import_app_invoke" />
+      <item itemvalue="Python.logger" />
+      <item itemvalue="Python.providers" />
+      <item itemvalue="Python.state" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.01_test_import_app_invoke" />
@@ -248,7 +227,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="功能：项目初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="功能：项目初始化" />
+    <MESSAGE value="测试：增加graph代码案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试：增加graph代码案例" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ai_knowledge_base$state.coverage" NAME="state 覆盖结果" MODIFIED="1782109143901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/process/import_/agent" />
